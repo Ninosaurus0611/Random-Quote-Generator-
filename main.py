@@ -23,5 +23,6 @@ specifieke_categorie = input("Wil je een quote van een bepaalde categorie? (of d
 if specifieke_categorie == "ja" or "Ja":
     print(f"Dit zijn de categoriën", categories)
 else:
-    print()
+    print("Oké, hier is een random quote")
+    print(quote)
 
