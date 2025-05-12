@@ -15,14 +15,19 @@
 #quote tonen
 
 import random
+import json
 
-categories = ["self improvement", "power"]
+with open("quotes.json", 'r') as json_file:
+    quotes = json.load(json_file)
 
+category = sorted({q['category'] for q in quotes})
 
-specifieke_categorie = input("Wil je een quote van een bepaalde categorie? (of druk Enter voor willekeurig): ").strip()
-if specifieke_categorie == "ja" or "Ja":
-    print(f"Dit zijn de categoriën", categories)
-else:
-    print("Oké, hier is een random quote")
-    print(quote)
+print("Beschikbare categorieën:", category)
+
+random_quote = random.choice(quotes)
+
+print("\nRandom Quote: ")
+print('"'+random_quote["quote"]+'"', "-" , random_quote["author"])
+print("Category:", random_quote["category"])
+
 
