@@ -26,7 +26,7 @@ random_quote = random.choice(quotes)
 
 specifieke_categorie = input("Wilt u een specifieke categorie? Zo niet, druk Enter\n")
 if specifieke_categorie.strip().lower() == "ja":
-    print("Beschikbare categorieën:", category)
+    print("Beschikbare categorieën: \n", category)
 
 else:
     print("\nRandom Quote: ")
