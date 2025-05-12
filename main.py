@@ -25,7 +25,7 @@ category = sorted({q['category'] for q in quotes})
 random_quote = random.choice(quotes)
 
 specifieke_categorie = input("Wilt u een specifieke categorie? Zo niet, druk Enter")
-if specifieke_categorie.lower() == "ja":
+if specifieke_categorie.strip().lower() == "ja":
     print("Beschikbare categorieën:", category)
 
 else:
