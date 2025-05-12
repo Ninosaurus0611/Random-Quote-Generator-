@@ -22,12 +22,15 @@ with open("quotes.json", 'r') as json_file:
 
 category = sorted({q['category'] for q in quotes})
 
-print("Beschikbare categorieën:", category)
-
 random_quote = random.choice(quotes)
 
-print("\nRandom Quote: ")
-print('"'+random_quote["quote"]+'"', "-" , random_quote["author"])
-print("Category:", random_quote["category"])
+specifieke_categorie = input("Wilt u een specifieke categorie? Zo niet, druk Enter")
+if specifieke_categorie.lower() == "ja":
+    print("Beschikbare categorieën:", category)
+
+else:
+    print("\nRandom Quote: ")
+    print('"'+random_quote["quote"]+'"', "-" , random_quote["author"])
+    print("Category:", random_quote["category"])
 
 
