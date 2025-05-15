@@ -1,34 +1,28 @@
-# Random Quote Generator
-
-# benodigde onderdelen:
-# lijst met Quotes (miss veranderen als mogelijk naar vanuit quote word bestand)
-# functie die een random quote print
+#miss nog doen??
 #UI -> site of scherm dat zich opent om de quote te zien (miss met een knop)
 
-#imports??:
-#import json
-#import random
-
-
-#Selectie -> random quote, specifiek genre, of autheur
-#random quote kiezen
-#quote tonen
-
+# Random Quote Generator
+#imports
 import random
 import json
 
+#json file lezen
 with open("quotes.json", 'r') as json_file:
     quotes = json.load(json_file)
 
+#categorien toekennen
 category = sorted({q['category'] for q in quotes})
 
-random_quote = random.choice(quotes)
+#vraag user specifieke categorie of niet en print random quote of quote uit de categorie
+specifieke_categorie_ja_of_nee = input("Wilt u een specifieke categorie? Zo niet, druk Enter\n")
+if specifieke_categorie_ja_of_nee.strip().lower() == "ja":
+    print("\nBeschikbare categorieën: ", "\n - " + "\n - ".join(category))
+    gekozen_categorie = input("\nUit welke van de bovenstaande categoriën wilt u een quote zien?\n").strip().lower()
 
-specifieke_categorie = input("Wilt u een specifieke categorie? Zo niet, druk Enter\n")
-if specifieke_categorie.strip().lower() == "ja":
-    print("Beschikbare categorieën: \n", category)
+
 
 else:
+    random_quote = random.choice(quotes)
     print("\nRandom Quote: ")
     print('"'+random_quote["quote"]+'"', "-" , random_quote["author"])
     print("Category:", random_quote["category"])
