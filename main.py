@@ -14,12 +14,20 @@ with open("quotes.json", 'r') as json_file:
 category = sorted({q['category'] for q in quotes})
 
 #vraag user specifieke categorie of niet en print random quote of quote uit de categorie
-specifieke_categorie_ja_of_nee = input("Wilt u een specifieke categorie? Zo niet, druk Enter\n")
+specifieke_categorie_ja_of_nee = input("Wilt u een specifieke categorie? Zo wel, typ ja. Zo niet, druk Enter.\n")
 if specifieke_categorie_ja_of_nee.strip().lower() == "ja":
     print("\nBeschikbare categorieën: ", "\n - " + "\n - ".join(category))
     gekozen_categorie = input("\nUit welke van de bovenstaande categoriën wilt u een quote zien?\n").strip().lower()
 
+    gefilterde_quotes = [q for q in quotes if q['category'].lower() == gekozen_categorie]
 
+    if gefilterde_quotes:
+        quote = random.choice(gefilterde_quotes)
+        print("\nQuote uit de categorie '{}':".format(gekozen_categorie))
+        print('"' + quote["quote"] + '"', "-", quote["author"])
+
+    else:
+        print("\nGeen quotes gevonden voor de categorie '{}'. Controleer je invoer.".format(gekozen_categorie))
 
 else:
     random_quote = random.choice(quotes)
