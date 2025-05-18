@@ -1,12 +1,153 @@
 [
   {
-    "quote": "test",
-    "author": "jan klaas",
-    "category": "self improvement"
+    "quote": "Sin feels like freedom, until you try to stop.",
+    "author": "-",
+    "category": "Growth"
   },
   {
-    "quote": "test2",
-    "author": "klaas jan",
-    "category": "power"
+    "quote": "Desire is the root of all suffering.\nSuffering is the root of all greatness.",
+    "author": "Buddhism & Nietzschean Philosophy",
+    "category": "Growth"
+  },
+  {
+    "quote": "Why not give it a 100% the first time?",
+    "author": "-",
+    "category": "Growth"
+  },
+  {
+    "quote": "The true test of leadership is how well you function in a crisis.",
+    "author": "Brian Tracy",
+    "category": "Growth"
+  },
+  {
+    "quote": "When God wanted to make a king out of David, He sent him Goliath, not a crown.",
+    "author": "-",
+    "category": "Growth"
+  },
+  {
+    "quote": "He who has a why to live for can bear almost anything.",
+    "author": "Friedrich Nietzsche",
+    "category": "Life"
+  },
+  {
+    "quote": "The mystery of human existence lies not in just staying alive, but in finding someone to live for.",
+    "author": "Fyodor Dostoevsky",
+    "category": "Life"
+  },
+  {
+    "quote": "Where attention goes, reality grows.\nAre you creating chaos or peace?",
+    "author": "-",
+    "category": "Growth"
+  },
+  {
+    "quote": "Men are happiest when they're improving themselves physically, mentally, and financially. An idle man is a depressed man.",
+    "author": "-",
+    "category": "Growth"
+  },
+  {
+    "quote": "Never give up, never surrender!",
+    "author": "-",
+    "category": "Growth"
+  },
+  {
+    "quote": "We were taught to memorize answers, but not to question questions.",
+    "author": "Socrates",
+    "category": "Reality"
+  },
+  {
+    "quote": "The best way to keep a prisoner from escaping is to make sure he never knows he's in prison.",
+    "author": "Fyodor Dostoevsky",
+    "category": "Reality"
+  },
+  {
+    "quote": "History is a set of lies agreed upon.",
+    "author": "Napoleon Bonaparte",
+    "category": "Reality"
+  },
+  {
+    "quote": "The more stupid one is, the closer one is to reality...",
+    "author": "Fyodor Dostoevsky",
+    "category": "Truth"
+  },
+  {
+    "quote": "Wrong is wrong, even if everyone is doing it. \nRight is right, even if no one is doing it.",
+    "author": "-",
+    "category": "Truth"
+  },
+  {
+    "quote": "Mathematics is the language of the universe.\nScience is the law of the universe.",
+    "author": "-",
+    "category": "Truth"
+  },
+  {
+    "quote": "In chess, white and black pieces are bitter enemies, but those who move the pieces are usually good friends.",
+    "author": "-",
+    "category": "Control"
+  },
+  {
+    "quote": "Panem et circenses",
+    "author": "Juvenalis",
+    "category": "Control"
+  },
+  {
+    "quote": "It's always the people going nowhere that have something to say.",
+    "author": "-",
+    "category": "Truth"
+  },
+  {
+    "quote": "Be the change you want to see in the world.",
+    "author": "-",
+    "category": "Growth"
+  },
+  {
+    "quote": "To learn who rules over you, simply find out who you are not allowed to critize.",
+    "author": "Voltaire",
+    "category": "Control"
+  },
+  {
+    "quote": "Prepare and prevent, don't repair and repent.",
+    "author": "-",
+    "category": "Wisdom"
+  },
+  {
+    "quote": "If voting made any difference they wouldn't let us do it.",
+    "author": "-",
+    "category": "Control"
+  },
+  {
+    "quote": "Telling the truth is crazy in a world full of lies.",
+    "author": "Ye",
+    "category": "Truth"
+  },
+  {
+    "quote": "Clutching a rose too tightly, you bleed from it's thorns...",
+    "author": "-",
+    "category": "Philosophy"
+  },
+  {
+    "quote": "Those who were seen dancing were thought to be insane by those who couldn't hear the music.",
+    "author": "Nietzsche",
+    "category": "Philosophy"
+  },
+  {
+    "quote": "You can discover more about a person in an hour of play than in a year of conversation.",
+    "author": "Plato",
+    "category": "Philosophy"
+  },
+  {
+    "quote": "Yào bû bùrú shí bû, shí bû bùrú Qì bû. (Medicine is not as good as food, food is not as good as Qì.)",
+    "author": "TCM",
+    "category": "Wisdom"
+  },
+  {
+    "quote": "Rénhuó yîkoû Qì. (Human beings live on Qì.)",
+    "author": "TCM",
+    "category": "Wisdom"
+  },
+  {
+    "quote": "Jesus isn't crucified for saying he was the son of god, but for showing us we all are.",
+    "author": "-",
+    "category": "Religion"
   }
 ]
+
